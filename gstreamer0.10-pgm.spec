@@ -11,6 +11,7 @@ URL:		http://openpgm.googlecode.com/
 BuildRequires:	gstreamer0.10-devel >= 0.10
 BuildRequires:	libpgm-devel >= 5.2
 BuildRequires:	libtool >= 2:2
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
